@@ -90,7 +90,7 @@ application:
           - "productpage"
       containers:
         - dev:
-            gitUrl: https://e.coding.net/codingcorp/nocalhost/bookinfo-reviews.git
+            gitUrl: https://github.com/mingshun/bookinfo-reviews-go.git
             image: codingcorp-docker.pkg.coding.net/nocalhost/dev-images/golang:latest
             shell: bash
             workDir: /home/nocalhost-dev
